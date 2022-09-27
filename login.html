@@ -5,12 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="res/css/loginStyle.css">
 </head>
+
 <body>
-    <header>
-        <ul>
-            <li><a href="index.html">Home</a></li>
+    <header class="header">
+        <ul class="navbar">
+            <li><a href="index.html"><strong>Home</strong></a></li>
         </ul>
+        <a class="logo" href="#"><img src="res/images/me.png" width="50" height="50" alt="Page logo"></a>
     </header>
+
+    <section class="logincontent">
+        <h2>Welcome to PostIT</h2>
+
+        <div class="createaccount">
+            <a href="#">Create an account</a>
+        </div>
+
+        <div>
+            <p>
+                or <br>
+                Please log in
+            </p>
+        </div>
+
+        <form class="loginform" id="loginform">
+            <div class="logininput">
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+            </div>
+            <div class="logininput">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            
+            <button type="submit" formaction="index.html" id="loginbutton">Log in</button>
+        </form>
+
+        <div class="passwordreset">
+            <a href="#">Forget password?</a>
+        </div>
+    </section>
+
 </body>
 </html>
