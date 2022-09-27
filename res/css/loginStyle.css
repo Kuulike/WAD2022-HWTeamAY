@@ -1,0 +1,69 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* General settings */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #927dc9;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Navigation bar settings */
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: aqua;
+    border-radius: .5em;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.logo {
+    margin-right: .5em;
+}
+.navbar a{
+    color: black; 
+    margin-left: .5em; 
+    font-size: xx-large;
+}
+
+/* Login content settings */
+.logincontent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.logincontent p{
+    text-align: center;
+}
