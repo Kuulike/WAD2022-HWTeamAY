@@ -64,33 +64,6 @@ a {
     background-color: rgb(121, 255, 179);
 }
 
-
-/* Login content settings */
-.logincontent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    padding: 10px 15px;
-    margin: 10px;
-    background-color: aqua;
-}
-
-.logincontent p{
-    text-align: center;
-}
-
-.loginform{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#loginbutton{
-    background-color: blue;
-    color: white;
-}
-
 /* Add post page settings */
 .addpost-page {                   
     display: flex;
