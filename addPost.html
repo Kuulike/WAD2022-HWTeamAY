@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="res/css/loginStyle.css">
     <title>Add Post</title>
 </head>
 <body>
+    <header class="header">
+        <ul class="navbar">
+            <li class="navoption"><a href="index.html"><strong>Home</strong></a></li>
+        </ul>
+        <picture class="logo"><img src="res/images/me.png" width="50" height="50" alt="Page logo"></picture>
+      </header>
+
+    <section class="addpost-page">         
+        
+        <form action="index.html">
+          
+          <div><label>Post body</label>
+          <input type="text" id="postText" placeholder="textarea" rows="50" ></div>
+          
+          <div><label for="myfile">Select a file:</label>
+          <input type="file" id="myfile" name="myfile"></div>
+
+          <button type="submit" id="addpostbutton">Add post</button>
+        </form>
+        
+      </section>
     
 </body>
 </html>

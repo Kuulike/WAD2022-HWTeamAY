@@ -1,0 +1,93 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+/* General settings */
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 0;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: #927dc9;
+    text-decoration: none;
+    text-align: center;
+}
+
+/* Navigation bar settings */
+.header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: aqua;
+    border-radius: .5em;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    margin-left: 0.5em;
+}
+
+.logo {
+    margin: .5em;
+}
+
+.navbar li{
+    display: flex;
+    align-items: center;
+}
+
+.navbar li, .navbar a{
+    color: black;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: xx-large;
+}
+
+.navoption:hover{
+    background-color: rgb(121, 255, 179);
+}
+
+/* Add post page settings */
+.addpost-page {                   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 10;
+
+    padding: 10px 15px;
+    margin: 100px;
+    background-color: aqua;
+}
+
+
+#addpostbutton {
+    padding: 10px 15px; 	
+    margin: 5px 0px;			
+    border: none;
+    border-radius: 6px; 		
+    color: #ffffff; 			
+    background-color: #0463b9;	
+}
+
+#addpostbutton:hover {                 
+	background-color: #034784;
+}
+
