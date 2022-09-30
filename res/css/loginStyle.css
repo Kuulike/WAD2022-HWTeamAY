@@ -34,7 +34,7 @@ a {
     flex-direction: row;
     justify-content: space-between;
 
-    background-color: aqua;
+    background-color: rgb(209, 243, 56);
     border-radius: .5em;
 }
 .navbar{
@@ -63,6 +63,35 @@ a {
 .navoption:hover{
     background-color: rgb(121, 255, 179);
 }
+
+
+/*Index.html settings*/
+    /*sidebar*/
+    /* The side navigation menu */
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ce2323;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+div.content {
+    margin-left: 20px;
+    padding: 1px 16px;
+    height: 1000px;
+}
+
+@media screen and (min-width: 400px) {
+    .sidebar a {
+    text-align: center;
+    float: none;
+    }
+}
+
+
 
 
 /* Login content settings */

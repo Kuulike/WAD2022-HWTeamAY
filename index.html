@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="res/css/style.css">
+    <link rel="stylesheet" href="res/css/loginStyle.css">
     <title>Home</title>
 </head>
 
@@ -23,7 +23,7 @@
     --->
 
 <body>
-
+    <!---
     <header class="header">
         <ul class="nav">
             <li><a href="index.html">Home</a></li>
@@ -32,34 +32,60 @@
         <a class="logo" href="#"><img src="res/images/me.png" width="50" height="50" alt="My picture"></a>
 
     </header>
+    -->
+
+    <header class="header">
+        <ul class="navbar">
+            <li class="navoption"><a href="index.html"><strong>Home</strong></a></li>
+            <li>|</li>
+            <li class="navoption"><a href="addPost.html"><strong>addPost</strong></a></li>
+        </ul>
+        <picture class="logo"><img src="res/images/me.png" width="50" height="50" alt="Page logo"></picture>
+    </header>
+    <aside></aside>
 
     <section>
         <!--Siis lisa postitused  
         Postititus pildi, kuupäeva ja tekstiga
         -->
 
-
-    <style>
-        div {
-            background-color: lightgrey;
-            width: 300px;
-            border: 15px solid green;
-            padding: 50px;
-            margin: 20px;
-            }
-            </style>          
-            <div>Postitus 1</div>
-            
-
-
-
+        <div class="post">
+            <div><picture class="poster-logo"><img src="res/images/me.png" width="35" height="35" alt="Poster logo"></picture></div>
+            <div class="post-date">Sept 30, 2022</div>
+            <div class="post-text">Postitus 1</div>
+            <div><picture class="post-likes"><img src="res/images/me.png" width="20" height="20" alt="thumb logo"></picture></div>
+        </div>
+        <div class="post">
+            <div><picture class="poster-logo"><img src="res/images/me.png" width="35" height="35" alt="Poster logo"></picture></div>
+            <div class="post-date">Sept 29, 2022</div>
+            <div class="post-text">Postitus 2</div>
+            <picture class="post-picture"><img src="res/images/raeplats.png"></picture> <!-- pildi suuruse määrame css-is-->
+            <div><picture class="post-likes"><img src="res/images/me.png" width="20" height="20" alt="thumb logo"></picture></div>
+        </div>
+        <div class="post">
+            <div><picture class="poster-logo"><img src="res/images/me.png" width="20" height="20" alt="Poster logo"></picture></div>
+            <div class="post-date">Sept 28, 2022</div>
+            <div class="post-text">Postitus 3</div>
+            <div><picture class="post-likes"><img src="res/images/me.png" width="20" height="20" alt="thumb logo"></picture></div>
+        </div>
+        <div class="post">
+            <div><picture class="poster-logo"><img src="res/images/me.png" width="20" height="20" alt="Poster logo"></picture></div>
+            <div class="post-date">Sprt 27, 2022</div>
+            <picture class="post-picture"><img src="res/images/raeplats.png"></picture> <!-- pildi suuruse määrame css-is-->
+            <div class="post-text">Postitus 4</div>
+            <div><picture class="post-likes"><img src="res/images/me.png" width="20" height="20" alt="thumb logo"></picture></div>
+        </div>
+        <div class="post">
+            <div><picture class="poster-logo"><img src="res/images/me.png" width="20" height="20" alt="Poster logo"></picture></div>
+            <div class="post-date">Sept 26, 2022</div>
+            <div class="post-text">Postitus 5</div>
+            <div><picture class="post-likes"><img src="res/images/me.png" width="20" height="20" alt="thumb logo"></picture></div>
+        </div>
     </section>
 
-    
+    <aside class="aside-left">Vasaklue paigutatud äär</aside>
+    <aside class="aside-right">Paremale paigutatud äär</aside>
 </body>
 
-<footer>
-
-
-</footer>
+<footer class="footer"> Footeri teks: Perpetum mobile</footer>
 </html>
