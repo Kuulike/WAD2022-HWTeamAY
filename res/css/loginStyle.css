@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     font-family: sans-serif;
     box-sizing: border-box;
@@ -94,6 +95,8 @@ div.content {
 
 
 
+=======
+>>>>>>> 06ac517fd423b2668f449a7fc1ae1505505e03a9
 /* Login content settings */
 .logincontent{
     display: flex;
@@ -119,31 +122,3 @@ div.content {
     background-color: blue;
     color: white;
 }
-
-/* Add post page settings */
-.addpost-page {                   
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 10;
-
-    padding: 10px 15px;
-    margin: 100px;
-    background-color: aqua;
-}
-
-
-#addpostbutton {
-    padding: 10px 15px; 	
-    margin: 5px 0px;			
-    border: none;
-    border-radius: 6px; 		
-    color: #ffffff; 			
-    background-color: #0463b9;	
-}
-
-#addpostbutton:hover {                 
-	background-color: #034784;
-}
-
