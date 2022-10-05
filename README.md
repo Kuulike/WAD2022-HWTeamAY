@@ -2,7 +2,7 @@
 Repository for first homework submission in the Web Application Development course.
 
 Team identifier: AY
-Groub number: 6
+Group number: 6
 
 Team members: 	Priit Rooden 93328, 
                 Tanel Tark C08132, 
