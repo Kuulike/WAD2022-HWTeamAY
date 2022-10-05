@@ -2,57 +2,78 @@
     display:flex;
     flex-direction: row;
     justify-content: space-between;
+    flex-flow: row wrap;
+    
 }
 
 .postinfo div~p{
-    color: rgb(247, 201, 201);
-    align-content: right;
-    
+    color: rgb(110, 33, 33);
 }
 
 .post {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background: beige;
+    background: rgb(243, 243, 225);
     height: auto;
     border-radius: .5em;
-    margin: 20px 0px 20px 0px;
-    padding: 10px 10px 10px 10px;
+    margin: 20px 0px 20px 1px;
+    padding: 25px 25px 25px 50px;
     width: 100%;
     align-content: left;
-    align-items: stretch;
-    
+    align-items: stretch;    
+}
+
+.post-text {
+    inline-size: 90%;
+    overflow-wrap: break-word;
+    padding: 3px 3px 3px 3px;
 }
 .post-date {
     align-content: right;
     
 }
-/*<div class="post-date">Sept 30, 2022</div>
-<div class="post-text">Postitus 1</div>*/
+
+/*- EI TÖÖTA */
+.post-picture{
+    align-items:center;
+}
+
 
 #content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+
 }
 
 .sidebar {
     flex: 1;
     display: flex;
     flex-direction: column;
-    height: 100%;
     min-width: 200px;
+    background: rgb(212, 236, 175);
+    position: flex-justify;
+    top:auto;
+
+    height: auto;
+    border-radius: .5em;
+    margin: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+    
 
 }
+
 .sidebar > div{
     height: 100%;
     min-height: 300px;
 }
 
+
 .body-text {
     margin-right: 150px;
     font-size: 18px;
+    
     }
 
     /* Navigation bar settings */
