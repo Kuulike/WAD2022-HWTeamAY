@@ -19,7 +19,19 @@
     align-items: center;
 }
 
+.logininput {
+    margin: 3px;
+}
+
 #loginbutton{
-    background-color: blue;
-    color: white;
+    padding: 10px 15px; 	
+    margin: 3px 0px 10px 0px;			
+    border: none;
+    border-radius: 6px; 		
+    color: #ffffff; 			
+    background-color: #0463b9;
+}
+
+#loginbutton:hover {                 
+	background-color: #034784;
 }
