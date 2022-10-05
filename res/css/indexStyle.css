@@ -18,10 +18,12 @@
     height: auto;
     border-radius: .5em;
     margin: 20px 0px 20px 1px;
-    padding: 25px 25px 25px 50px;
-    width: 100%;
     align-content: left;
     align-items: stretch;    
+}
+
+.post div{
+    margin: 10px 10px 10px 10px;
 }
 
 .post-text {
@@ -31,14 +33,11 @@
 }
 .post-date {
     align-content: right;
-    
 }
 
-/*- EI TÖÖTA */
-.post-picture{
-    align-items:center;
+.post-picture {
+    max-width: 350;
 }
-
 
 #content {
     display: flex;
@@ -74,9 +73,7 @@
     margin-right: 150px;
     font-size: 18px;
     
-    }
-
-    /* Navigation bar settings */
+}
 
 .footer {
     padding-top: .5em;
@@ -88,11 +85,16 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    }
+}
 
 
 
 @media (max-width: 600px) {
     .sidebar {
         display: none;
+    }
+
+    .post-picture{
+        align-self: center;
+    }
 }
