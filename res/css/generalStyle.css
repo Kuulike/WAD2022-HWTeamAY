@@ -37,6 +37,7 @@ a {
     background-color: aqua;
     border-radius: .5em;
 }
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -57,7 +58,7 @@ a {
     color: black;
     margin-left: 5px;
     margin-right: 5px;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .navoption:hover{
