@@ -3,28 +3,28 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 400px;
-
-    padding: 10px 10px;
+    justify-content: center;
+    width: 10;
+    padding: 10px 15px;
     margin: 100px;
     background-color: aqua;
 }
 
-#addPost > div {
-    margin: 10px;
-    display: inline-block;
-} 
+#addPostFile {
+    display: flex;
+    flex-direction: row;
+}
 
-.textBox > input  {
-    text-align: left;
-    height: 100px;  
-    width: 250px;
-    margin: 10px;
+#postText {
+    resize: none;
+    min-width: 300px;
+    word-wrap: break-word;
 }
 
 #addpostbutton {
     padding: 10px 15px; 	
-    margin: 10px 105px;    		
+
+    margin: 5px 0px;
     border: none;
     border-radius: 6px; 		
     color: #ffffff; 			
@@ -35,3 +35,8 @@
 	background-color: #034784;
 }
 
+@media (max-width: 600px) {
+    #addPostFile {
+        flex-direction: column;
+    }
+}

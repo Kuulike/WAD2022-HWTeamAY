@@ -10,26 +10,28 @@
 </head>
 <body>
     <header class="header">
-        <ul class="navbar">
-          <li class="navoption"><a href="index.html"><strong>Home</strong></a></li>
-        </ul>
-        <a class="logo" href="login.html"><img src="res/images/me.png" width="50" height="50" alt="My picture"></a>
+      <ul class="navbar">
+        <li class="navoption"><a href="index.html"><strong>Home</strong></a></li>
+      </ul>
+      <a class="logo" href="login.html"><img src="res/images/me.png" width="50" height="50" alt="My picture"></a>
     </header>
 
-    <section class="addpost-page">         
-        
-      <form id="addPost" action="index.html">
-          
-        <div class="textBox"><label for="postText">Post body:</label>
-        <input type="textarea" id="postText" placeholder="Insert your post text..."></div>
-        
-        <div class="fileSelect"><label for="myfile">Select a file:</label>
-        <input type="file" id="myfile" name="myfile"></div>
+  <section class="addpost-page">         
+      
+    <form action="index.html">
+      <div id="addPostText">
+        <div><textarea placeholder="Insert your post text..." id="postText" cols="30" rows="10"></textarea></div>
+      </div>
 
-        <button type="submit" id="addpostbutton">Add post</button>
-      </form>
+      <div id="addPostFile">
+        <div><label for="myfile">Select a file:</label></div>
+        <div><input type="file" id="myfile" name="myfile"></div>
+      </div>
+
+      <button type="submit" id="addpostbutton">Add post</button>
+    </form>
         
-    </section>
+  </section>
     
 </body>
 </html>

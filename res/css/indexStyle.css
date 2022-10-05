@@ -1,0 +1,98 @@
+.postinfo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    
+}
+
+.postinfo div~p{
+    color: rgb(110, 33, 33);
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgb(243, 243, 225);
+    height: auto;
+    border-radius: .5em;
+    margin: 20px 0px 20px 1px;
+    padding: 25px 25px 25px 50px;
+    width: 100%;
+    align-content: left;
+    align-items: stretch;    
+}
+
+.post-text {
+    inline-size: 90%;
+    overflow-wrap: break-word;
+    padding: 3px 3px 3px 3px;
+}
+.post-date {
+    align-content: right;
+    
+}
+
+/*- EI TÖÖTA */
+.post-picture{
+    align-items:center;
+}
+
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    min-width: 200px;
+    background: rgb(212, 236, 175);
+    position: flex-justify;
+    top:auto;
+
+    height: auto;
+    border-radius: .5em;
+    margin: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+    
+
+}
+
+.sidebar > div{
+    height: 100%;
+    min-height: 300px;
+}
+
+
+.body-text {
+    margin-right: 150px;
+    font-size: 18px;
+    
+    }
+
+    /* Navigation bar settings */
+
+.footer {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: aqua;
+    border-radius: .5em;
+    position: sticky; bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+
+
+@media (max-width: 600px) {
+    .sidebar {
+        display: none;
+}
