@@ -1,0 +1,102 @@
+
+
+/*
+While styling your pages, using the following rules is required ( -0.5 point for each missing rule). [3.5 points]
+ Use at least 2 different class selectors
+ Use an ID selector
+ Use a pseudo-element OR pseudo-class
+ Use a Descendant Selector (e.g., div p)
+ Use a Child Selector (e.g., div > p)
+ Use an Adjacent Sibling Selector (e.g., div + p)
+ Use a General Sibling Selector (e.g., div ~ p)
+*/
+
+/*
+4. Use flexbox to arrange the layout of your pages to fit both a screen and a cellphone. [2 point] 
+Note: use the toggle device toolbar to see how the pages look on a screen and on a cellphone.
+*/
+
+    
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
+@media screen and (max-width: 600px) {
+    .column {
+    width: 100%;
+    }
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: beige;
+    height: auto;
+    border-radius: .5em;
+    padding: .1em;
+    align-content: left;
+    width: 100%;
+    align-content: left;
+    
+}
+.post-date {
+    align-content: right;
+    
+}
+/*<div class="post-date">Sept 30, 2022</div>
+<div class="post-text">Postitus 1</div>*/
+
+.aside-left {
+    display: flex;
+    flex-grow:1;
+    height: 100%;
+    width:15%;
+    /*position: flexbox*/
+    position: fixed;
+    top: 75px;
+    bottom:600px;
+    left: 0;
+    background-color: rgb(227, 239, 243);
+    border-radius: 10px;
+    }
+
+
+.aside-right {
+    display: flex;
+    flex-grow:3;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    top: 75px;
+    bottom: 100;
+    right: 0;
+    background-color: rgb(227, 239, 243);
+    border-radius: 10px;
+    }
+
+.body-text {
+    margin-right: 150px;
+    font-size: 18px;
+    }
+
+    /* Navigation bar settings */
+
+.footer {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    background-color: aqua;
+    border-radius: .5em;
+    position: sticky; bottom: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+
+
+@media (max-width: 600px) {
+    .aside-right {
+        display: none;
+    }
+    .aside-left {
+        display: none;
+}
