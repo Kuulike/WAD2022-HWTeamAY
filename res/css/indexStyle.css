@@ -1,80 +1,79 @@
-
-
-/*
-While styling your pages, using the following rules is required ( -0.5 point for each missing rule). [3.5 points]
- Use at least 2 different class selectors
- Use an ID selector
- Use a pseudo-element OR pseudo-class
- Use a Descendant Selector (e.g., div p)
- Use a Child Selector (e.g., div > p)
- Use an Adjacent Sibling Selector (e.g., div + p)
- Use a General Sibling Selector (e.g., div ~ p)
-*/
-
-/*
-4. Use flexbox to arrange the layout of your pages to fit both a screen and a cellphone. [2 point] 
-Note: use the toggle device toolbar to see how the pages look on a screen and on a cellphone.
-*/
-
+.postinfo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-flow: row wrap;
     
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
-    .column {
-    width: 100%;
-    }
+}
+
+.postinfo div~p{
+    color: rgb(110, 33, 33);
 }
 
 .post {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    background: beige;
+    background: rgb(243, 243, 225);
     height: auto;
     border-radius: .5em;
-    padding: .1em;
-    align-content: left;
+    margin: 20px 0px 20px 1px;
+    padding: 25px 25px 25px 50px;
     width: 100%;
     align-content: left;
-    
+    align-items: stretch;    
+}
+
+.post-text {
+    inline-size: 90%;
+    overflow-wrap: break-word;
+    padding: 3px 3px 3px 3px;
 }
 .post-date {
     align-content: right;
     
 }
-/*<div class="post-date">Sept 30, 2022</div>
-<div class="post-text">Postitus 1</div>*/
 
-.aside-left {
+/*- EI TÖÖTA */
+.post-picture{
+    align-items:center;
+}
+
+
+#content {
     display: flex;
-    flex-grow:1;
-    height: 100%;
-    width:15%;
-    /*position: flexbox*/
-    position: fixed;
-    top: 75px;
-    bottom:600px;
-    left: 0;
-    background-color: rgb(227, 239, 243);
-    border-radius: 10px;
-    }
+    flex-direction: row;
+    justify-content: space-between;
 
+}
 
-.aside-right {
+.sidebar {
+    flex: 1;
     display: flex;
-    flex-grow:3;
+    flex-direction: column;
+    min-width: 200px;
+    background: rgb(212, 236, 175);
+    position: flex-justify;
+    top:auto;
+
+    height: auto;
+    border-radius: .5em;
+    margin: 20px 10px 20px 10px;
+    padding: 10px 10px 10px 10px;
+    
+
+}
+
+.sidebar > div{
     height: 100%;
-    width: 15%;
-    position: fixed;
-    top: 75px;
-    bottom: 100;
-    right: 0;
-    background-color: rgb(227, 239, 243);
-    border-radius: 10px;
-    }
+    min-height: 300px;
+}
+
 
 .body-text {
     margin-right: 150px;
     font-size: 18px;
+    
     }
 
     /* Navigation bar settings */
@@ -94,9 +93,6 @@ Note: use the toggle device toolbar to see how the pages look on a screen and on
 
 
 @media (max-width: 600px) {
-    .aside-right {
-        display: none;
-    }
-    .aside-left {
+    .sidebar {
         display: none;
 }
