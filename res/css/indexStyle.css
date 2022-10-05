@@ -1,27 +1,13 @@
+.postinfo {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-
-/*
-While styling your pages, using the following rules is required ( -0.5 point for each missing rule). [3.5 points]
- Use at least 2 different class selectors
- Use an ID selector
- Use a pseudo-element OR pseudo-class
- Use a Descendant Selector (e.g., div p)
- Use a Child Selector (e.g., div > p)
- Use an Adjacent Sibling Selector (e.g., div + p)
- Use a General Sibling Selector (e.g., div ~ p)
-*/
-
-/*
-4. Use flexbox to arrange the layout of your pages to fit both a screen and a cellphone. [2 point] 
-Note: use the toggle device toolbar to see how the pages look on a screen and on a cellphone.
-*/
-
+.postinfo div~p{
+    color: rgb(247, 201, 201);
+    align-content: right;
     
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other on smaller screens (600px wide or less) */
-@media screen and (max-width: 600px) {
-    .column {
-    width: 100%;
-    }
 }
 
 .post {
@@ -31,10 +17,11 @@ Note: use the toggle device toolbar to see how the pages look on a screen and on
     background: beige;
     height: auto;
     border-radius: .5em;
-    padding: .1em;
-    align-content: left;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 10px 10px 10px;
     width: 100%;
     align-content: left;
+    align-items: stretch;
     
 }
 .post-date {
@@ -44,33 +31,24 @@ Note: use the toggle device toolbar to see how the pages look on a screen and on
 /*<div class="post-date">Sept 30, 2022</div>
 <div class="post-text">Postitus 1</div>*/
 
-.aside-left {
+#content {
     display: flex;
-    flex-grow:1;
-    height: 100%;
-    width:15%;
-    /*position: flexbox*/
-    position: fixed;
-    top: 75px;
-    bottom:600px;
-    left: 0;
-    background-color: rgb(227, 239, 243);
-    border-radius: 10px;
-    }
+    flex-direction: row;
+    justify-content: space-between;
+}
 
-
-.aside-right {
+.sidebar {
+    flex: 1;
     display: flex;
-    flex-grow:3;
+    flex-direction: column;
     height: 100%;
-    width: 15%;
-    position: fixed;
-    top: 75px;
-    bottom: 100;
-    right: 0;
-    background-color: rgb(227, 239, 243);
-    border-radius: 10px;
-    }
+    min-width: 200px;
+
+}
+.sidebar > div{
+    height: 100%;
+    min-height: 300px;
+}
 
 .body-text {
     margin-right: 150px;
@@ -94,9 +72,6 @@ Note: use the toggle device toolbar to see how the pages look on a screen and on
 
 
 @media (max-width: 600px) {
-    .aside-right {
-        display: none;
-    }
-    .aside-left {
+    .sidebar {
         display: none;
 }
