@@ -1,0 +1,37 @@
+/* Add post page settings */
+.addpost-page {                   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+
+    padding: 10px 10px;
+    margin: 100px;
+    background-color: aqua;
+}
+
+#addPost > div {
+    margin: 10px;
+    display: inline-block;
+} 
+
+.textBox > input  {
+    text-align: left;
+    height: 100px;  
+    width: 250px;
+    margin: 10px;
+}
+
+#addpostbutton {
+    padding: 10px 15px; 	
+    margin: 10px 105px;    		
+    border: none;
+    border-radius: 6px; 		
+    color: #ffffff; 			
+    background-color: #0463b9;	
+}
+
+#addpostbutton:hover {                 
+	background-color: #034784;
+}
+
