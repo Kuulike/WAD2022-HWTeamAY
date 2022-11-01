@@ -10,3 +10,6 @@ Team members: 	Priit Rooden 93328,
 
 Link to repository:
 https://github.com/Kuulike/WAD2022-HWTeamAY
+
+Homework 2:
+Task 2. Website to validate the correctness of JSON file: https://jsonlint.com/ 
