@@ -61,6 +61,19 @@ a {
     font-size: x-large;
 }
 
+#userInfoBox{
+    position: fixed;
+    background-color: aqua;
+    border-radius: .5em;
+}
+
+#userInfoBox li{
+    display: flex;
+    align-items: left;
+    padding: 5px;
+}
+
 .navoption:hover{
     background-color: rgb(121, 255, 179);
+    border-radius: .5em;
 }
