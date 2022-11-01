@@ -30,6 +30,41 @@
     "date" : "Sept 26, 2022",
     "post-text": "12. oktoobril avatakse Tartus Hugo Treffneri Gümnaasiumis tudengisöökla. See on Tartu Ülikooli üliõpilaste eestvedamisel sündinud algatus, mille eesmärk on pakkuda tudengitele taskukohast lõunasööki. Tudengisöökla töötab igal argipäeval kella 14–16.",
     "post-likes": "res/images/likelogo.png" 
+},
+
+{
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 25, 2022",
+    "post-text": "Sel nädalal alustati kesklinna pargis uue linnaniidu rajamist, et tärkavad taimed saaksid kevadel kiire stardi.",
+    "post-likes": "res/images/likelogo.png" 
+},
+
+{
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 24, 2022",
+    "post-text": "Tamme puiestee on alates homsest kuni 15. detsembrini torustikutöödeks suletud umbes 100 meetriste töölõikudena.",
+    "post-likes": "res/images/likelogo.png" 
+},
+
+{
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 23, 2022",
+    "post-text": "Ülenurmes avati täna Tartu Smart Bike Share parkla.",
+    "post-likes": "res/images/likelogo.png" 
+},
+
+{
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 22, 2022",
+    "post-text": "Täna lõppev Tartu Haridusfestival pani meid mõtlema haridusteemadele.",
+    "post-likes": "res/images/likelogo.png" 
+},
+
+{
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 21, 2022",
+    "post-text": "Taas toimub Tartus puulehtede tasuta äravedu nende kruntide juurest, kus linna puud kasvavad eramu omanike koristatavate avalike kõnniteede läheduses.",
+    "post-likes": "res/images/likelogo.png" 
 }
 
 ]
