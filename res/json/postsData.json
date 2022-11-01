@@ -1,5 +1,35 @@
 [{
-    "example" : "test",
-    "second" : "other"
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 30, 2022",
+    "post-text": "Tartu keskse väljaku, Suurturu arhitektuuri tähtsamateks ehitisteks saidki uus raekoda väljaku laiemas ja perspektiivi lõpetav Kivisild väljaku kitsamas osas.",
+    "post-likes": "res/images/likelogo.png" 
+},
+{
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 29, 2022",
+    "picture" : "res/images/uuslogo.jpg",
+    "post-text": "Tartu uus logo",
+    "post-likes": "res/images/likelogo.png" 
+},
+{
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 28, 2022",
+    "picture" : "res/images/uuslogo.jpg",
+    "post-text": "6. oktoobril algab taas kaasava eelarve rahvahääletus. Erinevalt eelmistest aastatest saavad hääleõiguse ka need kuni 26-aastased tudengid, kelle registreeritud elukoht pole Tartu linnas.",
+    "post-likes": "res/images/likelogo.png" 
+},
+{
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 27, 2022",
+    "picture" : "res/images/raeplats.png",
+    "post-text": "Tartu on Euroopa kultuuripealinn 2024",
+    "post-likes": "res/images/likelogo.png" 
+},
+{
+    "poster-logo": "res/images/me.png", 
+    "date" : "Sept 26, 2022",
+    "post-text": "12. oktoobril avatakse Tartus Hugo Treffneri Gümnaasiumis tudengisöökla. See on Tartu Ülikooli üliõpilaste eestvedamisel sündinud algatus, mille eesmärk on pakkuda tudengitele taskukohast lõunasööki. Tudengisöökla töötab igal argipäeval kella 14–16.",
+    "post-likes": "res/images/likelogo.png" 
 }
+
 ]
