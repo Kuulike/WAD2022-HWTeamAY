@@ -10,6 +10,7 @@ const logoutLink = document.createElement("a");
 logoutContainer.className = "navoption";
 logoutLink.textContent = "log out";
 logoutLink.href = "login.html";
+logoutLink.style.color = "black";
 
 userNameText.innerText = "John Doe";
 userEmailText.innerText = "john.doe@email.ee";
@@ -28,6 +29,5 @@ logoPicture.addEventListener('click', (MouseEvent) => {
     } else {
         userinfoContainer.style.display = "block";
         userinfoContainer.style.top = headerElement.clientHeight + "px";
-        userinfoContainer.style.left = headerElement.clientWidth - userinfoContainer.clientWidth - 5 + "px"
     };
 });

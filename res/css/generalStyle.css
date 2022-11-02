@@ -63,6 +63,7 @@ a {
 
 #userInfoBox{
     position: fixed;
+    right: 0px;
     background-color: aqua;
     border-radius: .5em;
 }
@@ -74,6 +75,7 @@ a {
 }
 
 .navoption:hover{
+    transition: 0.6s;
     background-color: rgb(121, 255, 179);
     border-radius: .5em;
 }
