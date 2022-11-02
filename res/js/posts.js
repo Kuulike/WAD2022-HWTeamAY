@@ -11,30 +11,38 @@ const loding = true
     for (let post of posts){
         //console.log(post)
         const div = document.createElement('div')
-        div.classList.add('post')
+        div.className = 'post'
 
-        const timestamp = document.createElement('dates')
-        timestamp.textContent = post.timestamp
-
-        const h3 = document.createElement('h3')
-        h3.textContent = post.title
-
-        const p = document.createElement('p')
-        p.textContent = post.body
+        const div2 = document.createElement('div')
+        div2.className ='postinfo'
+        const div3 = document.createElement('div')
         
-        var img = document.createElement("img")
-        img.src = post.postPicture
-        //var src = document.getElementById("header")
+        div3.className = 'poster-logo'
+        const img = document.createElement('img')
+        img.src = post.me
 
-        var imgMe = document.createElement("img")
-        imgMe.src = post.me
+        const timestamp = document.createElement('p')
+        timestamp.innerText = post.timestamp
 
-        div.appendChild(timestamp)
-        div.appendChild(h3)
-        div.appendChild(imgMe)
-        div.appendChild(img)
+        const div4 = document.createElement('div')
+        div4.className = 'post-text'
+        div4.innerText = post.body
 
-        div.appendChild(p)
+        const div5 = document.createElement('div')
+        const img2 = document.createElement('img')
+        div5.className = 'post-picture'
+        img2.src= post.postPicture
+
+        div.appendChild(div2)
+        div2.appendChild(div3)
+        div2.appendChild(timestamp)
+        div3.appendChild(img)
+        div.appendChild(div4)
+        div.appendChild(div5)
+        div5.appendChild(img2)
+
+
+
         bodyElement.appendChild(div)
 
 
