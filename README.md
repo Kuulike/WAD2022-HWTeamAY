@@ -12,4 +12,5 @@ Link to repository:
 https://github.com/Kuulike/WAD2022-HWTeamAY
 
 Homework 2:
-Task 2. Website to validate the correctness of JSON file: https://jsonlint.com/ 
+Task 2. Website to validate the correctness of JSON file: https://jsonlint.com/
+Task 3. Website to fetch JSON file: https://api.npoint.io/8d84f0a8be48c62ba619
