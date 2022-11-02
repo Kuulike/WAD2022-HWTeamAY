@@ -3,6 +3,9 @@ const bodyElement=document.getElementsByTagName("section")[0]
 
 const loding = true
     fetch('res/json/postsData.json')
+    // web source
+    //fetch('https://api.npoint.io/8d84f0a8be48c62ba619')
+
         .then((response) => response.json())
         .then((posts) => {
 

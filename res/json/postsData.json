@@ -6,7 +6,7 @@
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",
     "body": "Tartu keskse väljaku, Suurturu arhitektuuri tähtsamateks ehitisteks saidki uus raekoda väljaku laiemas ja perspektiivi lõpetav Kivisild väljaku kitsamas osas.",
     "postPicture":"",
-    "like":"https://owncloud.ut.ee/owncloud/s/ngbNBJDKKC2Jazp/preview"
+    "like":"res/images/likelogo.png"
 
 },
 {
@@ -15,8 +15,8 @@
     "title":"tartu logo",
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
     "body": "Tartu uus logo",
-    "postPicture":"https://owncloud.ut.ee/owncloud/s/dHgxppQXySkeA3x/preview",
-    "like":"https://owncloud.ut.ee/owncloud/s/ngbNBJDKKC2Jazp/preview" 
+    "postPicture":"https://owncloud.ut.ee/owncloud/s/Q9BMYEEapfosC74/preview",
+    "like":"res/images/likelogo.png" 
 },
 {
     "id":3,
@@ -25,7 +25,7 @@
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
     "body": "6. oktoobril algab taas kaasava eelarve rahvahääletus. Erinevalt eelmistest aastatest saavad hääleõiguse ka need kuni 26-aastased tudengid, kelle registreeritud elukoht pole Tartu linnas.",
     "postPicture":"",
-    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
+    "like":"res/images/likelogo.png" 
 },
 {
     "id":4,
@@ -33,8 +33,8 @@
     "title":"kultuuripealinn",
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
     "body": "Tartu on Euroopa kultuuripealinn 2024",
-    "postPicture":"",
-    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
+    "postPicture":"https://owncloud.ut.ee/owncloud/s/dHgxppQXySkeA3x/preview",
+    "like":"res/images/likelogo.png" 
 },
 {
     "id":5,
@@ -42,8 +42,8 @@
     "title":"tudengisöökla",
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
     "body": "12. oktoobril avatakse Tartus Hugo Treffneri Gümnaasiumis tudengisöökla. See on Tartu Ülikooli üliõpilaste eestvedamisel sündinud algatus, mille eesmärk on pakkuda tudengitele taskukohast lõunasööki. Tudengisöökla töötab igal argipäeval kella 14–16.",
-    "postPicture":"",
-    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
+    "postPicture":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/TCN2MLqn7JcHJNX?x=1910&y=487&a=true&file=tudengisookla.jpg&scalingup=0",
+    "like":"res/images/likelogo.png" 
 },
 
 {
@@ -53,7 +53,7 @@
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
     "body": "Sel nädalal alustati kesklinna pargis uue linnaniidu rajamist, et tärkavad taimed saaksid kevadel kiire stardi.",
     "postPicture":"",
-    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true"
+    "like":"res/images/likelogo.png"
 },
 
 {
@@ -63,7 +63,7 @@
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
     "body": "Tamme puiestee on alates homsest kuni 15. detsembrini torustikutöödeks suletud umbes 100 meetriste töölõikudena.",
     "postPicture":"",
-    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true"
+    "like":"res/images/likelogo.png"
 },
 
 {
@@ -72,8 +72,8 @@
     "title":"rattaparkla",
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
     "body": "Ülenurmes avati täna Tartu Smart Bike Share parkla.",
-    "postPicture":"",
-    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true"
+    "postPicture":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/k6pwrLarsLRB69Z?x=1910&y=487&a=true&file=ylenumrerattaparkla.jpg&scalingup=0",
+    "like":"res/images/likelogo.png"
 },
 
 {
@@ -83,7 +83,7 @@
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
     "body": "Täna lõppev Tartu Haridusfestival pani meid mõtlema haridusteemadele.",
     "postPicture":"",
-    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
+    "like":"res/images/likelogo.png" 
 },
 
 {
@@ -92,8 +92,8 @@
     "title":"lehtede vedu",
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
     "body": "Taas toimub Tartus puulehtede tasuta äravedu nende kruntide juurest, kus linna puud kasvavad eramu omanike koristatavate avalike kõnniteede läheduses.",
-    "postPicture":"",
-    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
+    "postPicture":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/2fkRWdiPoiWCxad?x=1910&y=487&a=true&file=puulehed.png&scalingup=0",
+    "like":"res/images/likelogo.png" 
 }
 
 ]
