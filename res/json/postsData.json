@@ -1,81 +1,98 @@
-[{
+[
+{
     "id":1,
-    "timestamp": "01.11.2022",
-    "title" : "other",
+    "timestamp": "Sept 30, 2022",    
+    "title":"ajalugu",
     "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",
-    "body" : "hhhhhhhhhhhhhhhh",
-    "postPicture":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527856&x=1920&y=1080&a=true",
+    "body": "Tartu keskse väljaku, Suurturu arhitektuuri tähtsamateks ehitisteks saidki uus raekoda väljaku laiemas ja perspektiivi lõpetav Kivisild väljaku kitsamas osas.",
+    "postPicture":"",
     "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true"
-
+},
+{
+    "id":2,
+    "timestamp": "Sept 29, 2022",
+    "title":"tartu logo",
+    "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
+    "body": "Tartu uus logo",
+    "postPicture":"",
+    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
+},
+{
+    "id":3,
+    "timestamp": "Sept 28, 2022", 
+    "title":"kaasav eelarve",
+    "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
+    "body": "6. oktoobril algab taas kaasava eelarve rahvahääletus. Erinevalt eelmistest aastatest saavad hääleõiguse ka need kuni 26-aastased tudengid, kelle registreeritud elukoht pole Tartu linnas.",
+    "postPicture":"",
+    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
+},
+{
+    "id":4,
+    "timestamp": "Sept 27, 2022",
+    "title":"kultuuripealinn",
+    "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
+    "body": "Tartu on Euroopa kultuuripealinn 2024",
+    "postPicture":"",
+    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
+},
+{
+    "id":5,
+    "timestamp": "Sept 26, 2022",
+    "title":"tudengisöökla",
+    "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
+    "body": "12. oktoobril avatakse Tartus Hugo Treffneri Gümnaasiumis tudengisöökla. See on Tartu Ülikooli üliõpilaste eestvedamisel sündinud algatus, mille eesmärk on pakkuda tudengitele taskukohast lõunasööki. Tudengisöökla töötab igal argipäeval kella 14–16.",
+    "postPicture":"",
+    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
 },
 
 {
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 30, 2022",
-    "post-text": "Tartu keskse väljaku, Suurturu arhitektuuri tähtsamateks ehitisteks saidki uus raekoda väljaku laiemas ja perspektiivi lõpetav Kivisild väljaku kitsamas osas.",
-    "post-likes": "res/images/likelogo.png" 
-},
-{
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 29, 2022",
-    "picture" : "res/images/uuslogo.jpg",
-    "post-text": "Tartu uus logo",
-    "post-likes": "res/images/likelogo.png" 
-},
-{
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 28, 2022",
-    "picture" : "res/images/uuslogo.jpg",
-    "post-text": "6. oktoobril algab taas kaasava eelarve rahvahääletus. Erinevalt eelmistest aastatest saavad hääleõiguse ka need kuni 26-aastased tudengid, kelle registreeritud elukoht pole Tartu linnas.",
-    "post-likes": "res/images/likelogo.png" 
-},
-{
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 27, 2022",
-    "picture" : "res/images/raeplats.png",
-    "post-text": "Tartu on Euroopa kultuuripealinn 2024",
-    "post-likes": "res/images/likelogo.png" 
-},
-{
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 26, 2022",
-    "post-text": "12. oktoobril avatakse Tartus Hugo Treffneri Gümnaasiumis tudengisöökla. See on Tartu Ülikooli üliõpilaste eestvedamisel sündinud algatus, mille eesmärk on pakkuda tudengitele taskukohast lõunasööki. Tudengisöökla töötab igal argipäeval kella 14–16.",
-    "post-likes": "res/images/likelogo.png" 
+    "id":6,
+    "timestamp": "Sept 25, 2022",
+    "title":"linnaniit",
+    "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
+    "body": "Sel nädalal alustati kesklinna pargis uue linnaniidu rajamist, et tärkavad taimed saaksid kevadel kiire stardi.",
+    "postPicture":"",
+    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true"
 },
 
 {
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 25, 2022",
-    "post-text": "Sel nädalal alustati kesklinna pargis uue linnaniidu rajamist, et tärkavad taimed saaksid kevadel kiire stardi.",
-    "post-likes": "res/images/likelogo.png" 
+    "id":7,
+    "timestamp": "Sept 24, 2022",
+    "title":"torutööd",
+    "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
+    "body": "Tamme puiestee on alates homsest kuni 15. detsembrini torustikutöödeks suletud umbes 100 meetriste töölõikudena.",
+    "postPicture":"",
+    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true"
 },
 
 {
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 24, 2022",
-    "post-text": "Tamme puiestee on alates homsest kuni 15. detsembrini torustikutöödeks suletud umbes 100 meetriste töölõikudena.",
-    "post-likes": "res/images/likelogo.png" 
+    "id":8,
+    "timestamp": "Sept 23, 2022", 
+    "title":"rattaparkla",
+    "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
+    "body": "Ülenurmes avati täna Tartu Smart Bike Share parkla.",
+    "postPicture":"",
+    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true"
 },
 
 {
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 23, 2022",
-    "post-text": "Ülenurmes avati täna Tartu Smart Bike Share parkla.",
-    "post-likes": "res/images/likelogo.png" 
+    "id":9,
+    "timestamp": "Sept 22, 2022",
+    "title":"haridusfestival",
+    "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
+    "body": "Täna lõppev Tartu Haridusfestival pani meid mõtlema haridusteemadele.",
+    "postPicture":"",
+    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
 },
 
 {
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 22, 2022",
-    "post-text": "Täna lõppev Tartu Haridusfestival pani meid mõtlema haridusteemadele.",
-    "post-likes": "res/images/likelogo.png" 
-},
-
-{
-    "poster-logo": "res/images/me.png", 
-    "date" : "Sept 21, 2022",
-    "post-text": "Taas toimub Tartus puulehtede tasuta äravedu nende kruntide juurest, kus linna puud kasvavad eramu omanike koristatavate avalike kõnniteede läheduses.",
-    "post-likes": "res/images/likelogo.png" 
+    "id":10,
+    "timestamp": "Sept 21, 2022",
+    "title":"lehtede vedu",
+    "me":"https://owncloud.ut.ee/owncloud/apps/files_sharing/publicpreview/K2yERnxKKAZJs6W?x=1905&y=505&a=true&file=me.png&scalingup=0",    
+    "body": "Taas toimub Tartus puulehtede tasuta äravedu nende kruntide juurest, kus linna puud kasvavad eramu omanike koristatavate avalike kõnniteede läheduses.",
+    "postPicture":"",
+    "like":"https://owncloud.ut.ee/owncloud/core/preview?fileId=108527854&x=1920&y=1080&a=true" 
 }
 
 ]
